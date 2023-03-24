@@ -1,0 +1,40 @@
+.content {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #e5e7eb;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px , 1fr));
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.card {
+    border-left: solid 4px gray;
+    border-radius: 8px;
+    padding: 32px 32px;
+    max-width: 240px;
+}
+
+.card > div img {
+    height: 20px;
+}
+
+.card p:first-child{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin-bottom: 32px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.card >div {
+    text-align: end;
+}

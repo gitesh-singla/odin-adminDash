@@ -1,0 +1,21 @@
+.container > .sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 24rem auto;
+    border-right:solid 4px gray;  
+    background-color: #e5e7eb;
+}
+
+.sidebar-up,.sidebar-lower {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    grid-template-rows: repeat(auto-fit, 3rem);
+    align-items: center;
+    gap: 8px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.sidebar >div  img {
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+.header {
+    grid-column: 1/4;
+    height: 4rem;
+
+    display: grid;
+    grid-template-columns: 250px minmax(400px , 1fr) 250px;
+    grid-template-rows: 4rem;
+    gap: 16px;
+    background-color: #e5e7eb;
+
+}
+
+.Logo {
+    display: grid;
+    grid-template-columns: 3.5rem auto;
+    align-items: center;
+    padding-left: 16px;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
+
+.header > div img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns:  minmax(200px,600px) 2rem;
+    align-items: center;
+    gap:0.2rem;
+    justify-content: center;
+    padding-left: 8px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: grey;
+    height: 1.8rem;
+    border-radius: 0.9rem;
+    padding-left: 0.9rem;
+    color: white;
+}
+
+.utility {
+    display: grid;
+    grid-template-columns: 2rem 3rem 1fr;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
